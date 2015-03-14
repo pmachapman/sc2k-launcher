@@ -1,6 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
+# Custom for Visual Basic
+*.frm text eol=crlf
+*.vbp text eol=crlf
+
 # Custom for Visual Studio
 *.cs     diff=csharp
 
